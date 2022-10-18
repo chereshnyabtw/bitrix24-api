@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="134997d5-b6d2-43e9-9559-3c477d313cb6" name="Changes" comment="fix">
+    <list default="true" id="134997d5-b6d2-43e9-9559-3c477d313cb6" name="Changes" comment="bump">
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin Script" />
       </list>
     </option>
   </component>
@@ -55,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666096975222</updated>
       <workItem from="1666096976527" duration="1443000" />
-      <workItem from="1666098756606" duration="518000" />
+      <workItem from="1666098756606" duration="1023000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1666098766730</created>
@@ -71,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666099244434</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="bump">
+      <created>1666099280631</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666099280631</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +102,7 @@
     <MESSAGE value="https://github.com/chereshnyabtw/bitrix24-api.git" />
     <MESSAGE value="initial" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="bump" />
+    <option name="LAST_COMMIT_MESSAGE" value="bump" />
   </component>
 </project>

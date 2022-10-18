@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.github.chereshnyabtw"
-version = "1.0-rc2"
+version = "1.0-rc3"
 
 repositories {
     mavenCentral()

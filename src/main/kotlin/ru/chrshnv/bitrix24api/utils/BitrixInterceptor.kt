@@ -18,10 +18,7 @@ class BitrixInterceptor: ClientHttpRequestInterceptor {
 	): ClientHttpResponse {
 		request.headers.contentType = MediaType.APPLICATION_JSON
 
-		request.uri.query.plus("auth=${Settings.getInstance().accessToken}")
-		println(request.uri.query)
-
-		var response = execution.execute(request, body)
+		val response = execution.execute(request, body)
 
 		if(response.statusCode != HttpStatus.UNAUTHORIZED)
 			return response
@@ -34,13 +31,9 @@ class BitrixInterceptor: ClientHttpRequestInterceptor {
 			)
 
 		if(refreshResponse.statusCode != HttpStatus.UNAUTHORIZED) {
-			request.uri.query.replace("auth=${Settings.getInstance().accessToken}", "auth=${refreshResponse.body?.accessToken}")
-
 			Settings.getInstance().accessToken = refreshResponse.body?.accessToken
 			Settings.getInstance().refreshToken = refreshResponse.body?.refreshToken
 		}
-
-		response = execution.execute(request, body)
 		return response
 	}
 }

@@ -19,6 +19,8 @@ class BitrixInterceptor: ClientHttpRequestInterceptor {
 		request.headers.contentType = MediaType.APPLICATION_JSON
 
 		request.uri.query.plus("auth=${Settings.getInstance().accessToken}")
+		println(request.uri.query)
+
 		var response = execution.execute(request, body)
 
 		if(response.statusCode != HttpStatus.UNAUTHORIZED)

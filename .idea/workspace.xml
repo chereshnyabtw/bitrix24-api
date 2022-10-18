@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="134997d5-b6d2-43e9-9559-3c477d313cb6" name="Changes" comment="added binding and setup logic">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/utils/BitrixInterceptor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/utils/BitrixInterceptor.kt" afterDir="false" />
+    <list default="true" id="134997d5-b6d2-43e9-9559-3c477d313cb6" name="Changes" comment="debugging tools">
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666096975222</updated>
       <workItem from="1666096976527" duration="1443000" />
-      <workItem from="1666098756606" duration="5272000" />
+      <workItem from="1666098756606" duration="5293000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1666098766730</created>
@@ -194,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666108479241</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="debugging tools">
+      <created>1666111222971</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666111222971</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +224,7 @@
     <MESSAGE value="bump" />
     <MESSAGE value="rc4" />
     <MESSAGE value="added binding and setup logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="added binding and setup logic" />
+    <MESSAGE value="debugging tools" />
+    <option name="LAST_COMMIT_MESSAGE" value="debugging tools" />
   </component>
 </project>

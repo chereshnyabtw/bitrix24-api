@@ -3,13 +3,22 @@ plugins {
 	id("maven-publish")
 }
 
-group = "com.github.chereshnyabtw"
-version = "1.0-rc3"
-
 repositories {
     mavenCentral()
 }
 
 dependencies {
     testImplementation(kotlin("test"))
+}
+
+publishing {
+	publications {
+		create<MavenPublication>("maven") {
+			groupId = "com.github.chereshnyabtw"
+			artifactId = "bitrix24-api"
+			version = "1.0-rc4"
+
+			from(components["kotlin"])
+		}
+	}
 }

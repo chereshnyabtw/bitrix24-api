@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="134997d5-b6d2-43e9-9559-3c477d313cb6" name="Changes" comment="bump version">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/models/ActivationHandler.kt" afterDir="false" />
+    <list default="true" id="134997d5-b6d2-43e9-9559-3c477d313cb6" name="Changes" comment="imconnector activation">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/models/ImConnectorMessage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/models/ImConnectorSend.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/config/Settings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/config/Settings.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/services/ImConnectorService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/services/ImConnectorService.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,8 +61,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Script" />
-        <option value="Kotlin Data Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Data Class" />
       </list>
     </option>
   </component>
@@ -154,7 +154,7 @@
       <updated>1666096975222</updated>
       <workItem from="1666096976527" duration="1443000" />
       <workItem from="1666098756606" duration="1787000" />
-      <workItem from="1666175507090" duration="4682000" />
+      <workItem from="1666175507090" duration="5762000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1666098766730</created>
@@ -226,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666181857298</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="imconnector activation">
+      <created>1666183425478</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666183425478</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +261,7 @@
     <MESSAGE value="register connector" />
     <MESSAGE value="event bind functional" />
     <MESSAGE value="bump version" />
-    <option name="LAST_COMMIT_MESSAGE" value="bump version" />
+    <MESSAGE value="imconnector activation" />
+    <option name="LAST_COMMIT_MESSAGE" value="imconnector activation" />
   </component>
 </project>

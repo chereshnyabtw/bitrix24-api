@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="134997d5-b6d2-43e9-9559-3c477d313cb6" name="Changes" comment="event bind functional">
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+    <list default="true" id="134997d5-b6d2-43e9-9559-3c477d313cb6" name="Changes" comment="bump version">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/models/ActivationHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/config/Settings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/config/Settings.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/services/ImConnectorService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/services/ImConnectorService.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +154,7 @@
       <updated>1666096975222</updated>
       <workItem from="1666096976527" duration="1443000" />
       <workItem from="1666098756606" duration="1787000" />
-      <workItem from="1666175507090" duration="3245000" />
+      <workItem from="1666175507090" duration="4682000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1666098766730</created>
@@ -216,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666181782109</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="bump version">
+      <created>1666181857298</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666181857298</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +253,7 @@
     <MESSAGE value="cleanup logger" />
     <MESSAGE value="register connector" />
     <MESSAGE value="event bind functional" />
-    <option name="LAST_COMMIT_MESSAGE" value="event bind functional" />
+    <MESSAGE value="bump version" />
+    <option name="LAST_COMMIT_MESSAGE" value="bump version" />
   </component>
 </project>

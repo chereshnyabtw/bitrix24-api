@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="134997d5-b6d2-43e9-9559-3c477d313cb6" name="Changes" comment="added user checks. bump version">
+    <list default="true" id="134997d5-b6d2-43e9-9559-3c477d313cb6" name="Changes" comment="bump version to release">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/models/MessageEvent.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +59,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Script" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Data Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -81,17 +81,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "show.migrate.to.gradle.popup": "false",
-    "spring.configuration.checksum": "70857553fa8c541d6d0f3f53d2826583"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;70857553fa8c541d6d0f3f53d2826583&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.bitrix24-api [publishToMavenLocal]">
     <configuration name="bitrix24-api [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -152,7 +152,9 @@
       <updated>1666096975222</updated>
       <workItem from="1666096976527" duration="1443000" />
       <workItem from="1666098756606" duration="1787000" />
-      <workItem from="1666175507090" duration="7776000" />
+      <workItem from="1666175507090" duration="8391000" />
+      <workItem from="1666189244059" duration="1195000" />
+      <workItem from="1666203736631" duration="1145000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1666098766730</created>
@@ -252,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666185967679</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="bump version to release">
+      <created>1666187216386</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666187216386</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +292,7 @@
     <MESSAGE value="sending messages to connector" />
     <MESSAGE value="bump version" />
     <MESSAGE value="added user checks. bump version" />
-    <option name="LAST_COMMIT_MESSAGE" value="added user checks. bump version" />
+    <MESSAGE value="bump version to release" />
+    <option name="LAST_COMMIT_MESSAGE" value="bump version to release" />
   </component>
 </project>

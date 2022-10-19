@@ -22,7 +22,7 @@ publishing {
 		create<MavenPublication>("maven") {
 			groupId = "com.github.chereshnyabtw"
 			artifactId = "bitrix24-api"
-			version = "1.1-rc1"
+			version = "1.1-rc2"
 
 			from(components["kotlin"])
 		}

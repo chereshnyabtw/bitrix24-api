@@ -20,7 +20,7 @@ Use the package manager:
 	<dependency>
 	    <groupId>com.github.chereshnyabtw</groupId>
 	    <artifactId>bitrix24-api</artifactId>
-	    <version>Tag</version>
+	    <version>1.1</version>
 	</dependency>
 ```
 

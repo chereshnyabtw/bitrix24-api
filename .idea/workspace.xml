@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="134997d5-b6d2-43e9-9559-3c477d313cb6" name="Changes" comment="bump versions">
+    <list default="true" id="134997d5-b6d2-43e9-9559-3c477d313cb6" name="Changes" comment="added user checks. bump version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/services/PlacementService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/services/PlacementService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/utils/BitrixInterceptor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/utils/BitrixInterceptor.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +59,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Script" />
-        <option value="Kotlin Data Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Data Class" />
       </list>
     </option>
   </component>
@@ -83,16 +81,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "show.migrate.to.gradle.popup": "false",
+    "spring.configuration.checksum": "70857553fa8c541d6d0f3f53d2826583"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Gradle.bitrix24-api [publishToMavenLocal]">
     <configuration name="bitrix24-api [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -152,7 +151,8 @@
       <option name="presentableId" value="Default" />
       <updated>1666096975222</updated>
       <workItem from="1666096976527" duration="1443000" />
-      <workItem from="1666098756606" duration="6319000" />
+      <workItem from="1666098756606" duration="1787000" />
+      <workItem from="1666175507090" duration="7776000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1666098766730</created>
@@ -182,35 +182,77 @@
       <option name="project" value="LOCAL" />
       <updated>1666099786926</updated>
     </task>
-    <task id="LOCAL-00005" summary="rc4">
-      <created>1666100619506</created>
+    <task id="LOCAL-00005" summary="added logging to placement bind">
+      <created>1666173764283</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1666100619506</updated>
+      <updated>1666173764283</updated>
     </task>
-    <task id="LOCAL-00006" summary="added binding and setup logic">
-      <created>1666108479241</created>
+    <task id="LOCAL-00006" summary="reworked try catch logic">
+      <created>1666180712946</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1666108479241</updated>
+      <updated>1666180712946</updated>
     </task>
-    <task id="LOCAL-00007" summary="debugging tools">
-      <created>1666111222971</created>
+    <task id="LOCAL-00007" summary="cleanup logger">
+      <created>1666180786573</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1666111222971</updated>
+      <updated>1666180786573</updated>
     </task>
-    <task id="LOCAL-00008" summary="bump versions">
-      <created>1666111242012</created>
+    <task id="LOCAL-00008" summary="register connector">
+      <created>1666181414712</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1666111242012</updated>
+      <updated>1666181414712</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="event bind functional">
+      <created>1666181782109</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666181782109</updated>
+    </task>
+    <task id="LOCAL-00010" summary="bump version">
+      <created>1666181857298</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666181857298</updated>
+    </task>
+    <task id="LOCAL-00011" summary="imconnector activation">
+      <created>1666183425478</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666183425478</updated>
+    </task>
+    <task id="LOCAL-00012" summary="sending messages to connector">
+      <created>1666184699467</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666184699467</updated>
+    </task>
+    <task id="LOCAL-00013" summary="bump version">
+      <created>1666184812371</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666184812371</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added user checks. bump version">
+      <created>1666185967679</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666185967679</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,10 +274,15 @@
     <MESSAGE value="initial" />
     <MESSAGE value="fix" />
     <MESSAGE value="bump" />
-    <MESSAGE value="rc4" />
-    <MESSAGE value="added binding and setup logic" />
-    <MESSAGE value="debugging tools" />
-    <MESSAGE value="bump versions" />
-    <option name="LAST_COMMIT_MESSAGE" value="bump versions" />
+    <MESSAGE value="added logging to placement bind" />
+    <MESSAGE value="reworked try catch logic" />
+    <MESSAGE value="cleanup logger" />
+    <MESSAGE value="register connector" />
+    <MESSAGE value="event bind functional" />
+    <MESSAGE value="imconnector activation" />
+    <MESSAGE value="sending messages to connector" />
+    <MESSAGE value="bump version" />
+    <MESSAGE value="added user checks. bump version" />
+    <option name="LAST_COMMIT_MESSAGE" value="added user checks. bump version" />
   </component>
 </project>

@@ -8,6 +8,8 @@ class Settings {
 
 	var clientId: String = ""
 	var clientSecret: String = ""
+	var connector: String = ""
+	var lineId: String = ""
 
 	companion object {
 		private var sInstance: Settings? = null

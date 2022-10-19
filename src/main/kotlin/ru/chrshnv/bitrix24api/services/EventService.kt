@@ -5,21 +5,21 @@ import org.springframework.http.ResponseEntity
 import org.springframework.web.client.HttpStatusCodeException
 import ru.chrshnv.bitrix24api.config.RestTemplateConfig
 import ru.chrshnv.bitrix24api.config.Settings
-import ru.chrshnv.bitrix24api.models.PlacementBind
+import ru.chrshnv.bitrix24api.models.EventBind
 
-class PlacementService {
-	fun bind(binding: PlacementBind): ResponseEntity<String>? {
+class EventService {
+	fun bind(binding: EventBind): ResponseEntity<String>? {
 		val restTemplate = RestTemplateConfig.getRestTemplate()
 
 		for (i in 1..3) {
 			try {
 				return restTemplate
 					.getForEntity(
-						"${Settings.getInstance().url}placement.bind/?placement=${binding.placement}&handler=${binding.handler}&tittle=${binding.tittle}&auth=${Settings.getInstance().accessToken}",
+						"${Settings.getInstance().url}event.bind.json?auth=${Settings.getInstance().accessToken}&handler=${binding.handler}&event=${binding.event}",
 						String::class.java
 					)
 			} catch (e: HttpStatusCodeException) {
-				if(i < 3 && e.statusCode == HttpStatus.UNAUTHORIZED)
+				if(e.statusCode == HttpStatus.UNAUTHORIZED && i < 3)
 					continue
 				else
 					throw e

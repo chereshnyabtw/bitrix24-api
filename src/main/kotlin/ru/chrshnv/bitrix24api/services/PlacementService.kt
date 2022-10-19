@@ -6,11 +6,8 @@ import org.springframework.web.client.HttpStatusCodeException
 import ru.chrshnv.bitrix24api.config.RestTemplateConfig
 import ru.chrshnv.bitrix24api.config.Settings
 import ru.chrshnv.bitrix24api.models.PlacementBind
-import java.util.logging.Logger
 
 class PlacementService {
-	private val logger: Logger = Logger.getLogger(this.javaClass.name)
-
 	fun bind(binding: PlacementBind): ResponseEntity<String>? {
 		val restTemplate = RestTemplateConfig.getRestTemplate()
 

@@ -4,9 +4,10 @@ import ru.chrshnv.bitrix24api.config.Settings
 import ru.chrshnv.bitrix24api.services.EventService
 import ru.chrshnv.bitrix24api.services.ImConnectorService
 import ru.chrshnv.bitrix24api.services.PlacementService
+import ru.chrshnv.bitrix24api.services.UserService
 import ru.chrshnv.bitrix24api.utils.UrlDecoder
 
-class Client(private val clientId: String, private val clientSecret: String, private val placementService: PlacementService = PlacementService(), private val connectorService: ImConnectorService = ImConnectorService(), private val eventService: EventService = EventService()) {
+class Client(private val clientId: String, private val clientSecret: String, private val placementService: PlacementService = PlacementService(), private val connectorService: ImConnectorService = ImConnectorService(), private val eventService: EventService = EventService(), private val userService: UserService = UserService()) {
 	fun getPlacementService(): PlacementService {
 		return placementService
 	}
@@ -17,6 +18,10 @@ class Client(private val clientId: String, private val clientSecret: String, pri
 
 	fun getEventService(): EventService {
 		return eventService
+	}
+
+	fun getUserService(): UserService {
+		return userService
 	}
 
 	fun setup(body: String) {

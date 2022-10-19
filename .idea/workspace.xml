@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="134997d5-b6d2-43e9-9559-3c477d313cb6" name="Changes" comment="bump version to release">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/models/MessageEvent.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="134997d5-b6d2-43e9-9559-3c477d313cb6" name="Changes" comment="message event thing">
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +153,7 @@
       <workItem from="1666098756606" duration="1787000" />
       <workItem from="1666175507090" duration="8391000" />
       <workItem from="1666189244059" duration="1195000" />
-      <workItem from="1666203736631" duration="1145000" />
+      <workItem from="1666203736631" duration="1230000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1666098766730</created>
@@ -261,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666187216386</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="message event thing">
+      <created>1666204963334</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666204963334</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +299,7 @@
     <MESSAGE value="bump version" />
     <MESSAGE value="added user checks. bump version" />
     <MESSAGE value="bump version to release" />
-    <option name="LAST_COMMIT_MESSAGE" value="bump version to release" />
+    <MESSAGE value="message event thing" />
+    <option name="LAST_COMMIT_MESSAGE" value="message event thing" />
   </component>
 </project>

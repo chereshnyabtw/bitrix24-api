@@ -1,12 +1,17 @@
 package ru.chrshnv.bitrix24api
 
 import ru.chrshnv.bitrix24api.config.Settings
+import ru.chrshnv.bitrix24api.services.ImConnectorService
 import ru.chrshnv.bitrix24api.services.PlacementService
 import ru.chrshnv.bitrix24api.utils.UrlDecoder
 
-class Client(private val clientId: String, private val clientSecret: String, private val placementService: PlacementService = PlacementService()) {
+class Client(private val clientId: String, private val clientSecret: String, private val placementService: PlacementService = PlacementService(), private val connectorService: ImConnectorService = ImConnectorService()) {
 	fun getPlacementService(): PlacementService {
 		return placementService
+	}
+
+	fun getConnectorService(): ImConnectorService {
+		return connectorService
 	}
 
 	fun setup(body: String) {

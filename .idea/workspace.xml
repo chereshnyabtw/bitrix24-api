@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="134997d5-b6d2-43e9-9559-3c477d313cb6" name="Changes" comment="reworked try catch logic">
+    <list default="true" id="134997d5-b6d2-43e9-9559-3c477d313cb6" name="Changes" comment="cleanup logger">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/models/ImConnectorRegister.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/services/ImConnectorService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/services/PlacementService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/services/PlacementService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/Client.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/chrshnv/bitrix24api/Client.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +62,7 @@
       <list>
         <option value="Kotlin Script" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Data Class" />
       </list>
     </option>
   </component>
@@ -152,7 +154,7 @@
       <updated>1666096975222</updated>
       <workItem from="1666096976527" duration="1443000" />
       <workItem from="1666098756606" duration="1787000" />
-      <workItem from="1666175507090" duration="2175000" />
+      <workItem from="1666175507090" duration="2790000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1666098766730</created>
@@ -196,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666180712946</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cleanup logger">
+      <created>1666180786573</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666180786573</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +229,7 @@
     <MESSAGE value="bump" />
     <MESSAGE value="added logging to placement bind" />
     <MESSAGE value="reworked try catch logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="reworked try catch logic" />
+    <MESSAGE value="cleanup logger" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanup logger" />
   </component>
 </project>

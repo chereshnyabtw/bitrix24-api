@@ -14,19 +14,21 @@ class PlacementService {
 	fun bind(binding: PlacementBind): ResponseEntity<String>? {
 		val restTemplate = RestTemplateConfig.getRestTemplate()
 
-		var response: ResponseEntity<String>? = null
-
-		try {
-			response = restTemplate
-				.getForEntity("${Settings.getInstance().url}placement.bind/?placement=${binding.placement}&handler=${binding.handler}&tittle=${binding.tittle}&auth=${Settings.getInstance().accessToken}", String::class.java)
-		} catch (e: HttpStatusCodeException) {
-			logger.info(e.statusCode.name)
-			logger.info(e.responseBodyAsString)
-
-			if(e.statusCode == HttpStatus.UNAUTHORIZED)
-				response = bind(binding)
+		for (i in 1..3) {
+			try {
+				return restTemplate
+					.getForEntity(
+						"${Settings.getInstance().url}placement.bind/?placement=${binding.placement}&handler=${binding.handler}&tittle=${binding.tittle}&auth=${Settings.getInstance().accessToken}",
+						String::class.java
+					)
+			} catch (e: HttpStatusCodeException) {
+				if(i < 3 && e.statusCode == HttpStatus.UNAUTHORIZED)
+					continue
+				else
+					throw e
+			}
 		}
 
-		return response
+		return null
 	}
 }

@@ -19,7 +19,6 @@ class BitrixInterceptor: ClientHttpRequestInterceptor {
 		request.headers.contentType = MediaType.APPLICATION_JSON
 
 		val response = execution.execute(request, body)
-
 		if(response.statusCode != HttpStatus.UNAUTHORIZED)
 			return response
 
